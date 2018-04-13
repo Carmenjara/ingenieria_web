@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #f1f1f1;
+	font-family: arial;
+}
+/*con "," se heredan las propiedades de estilo de cabecera*/
+header.cabecera, nav, footer{
+	/*para combinacion de colores aplicar la teoria de la rosa de colores; 
+	utilizar paletton para combinacion de colores*/
+	background: #96B32C;
+	color: #000;
+	width: 90%;
+	/*margen de 0 arriba y abajo y automatico a los lados*/
+	margin: 0 auto;
+	/*margin incluye 4 valores; de 4 valores 
+	(van en sentido de las manecilas del relos), dos valores 
+	(valores arriba y abajo) y un valor (se aplica a todos los lados) en un objeto externos y
+	padding del filo hacia dentro de una etiqueta*/
+}
+.cabecera figure{
+	width: 20%;
+	/*coloca figura en linea horizontal*/
+	display: inline-block;
+	padding: 1em 2em;
+}
+.cabecera form{
+	width: 70%;
+	display: inline-block;
+	text-align: right;
+}
+main{
+	width: 68%;
+	display: inline-block;
+	margin-left: 4.24em;
+	background:#96B32C; 
+	/*permite ubicar todo el contenido en la parte superior*/
+	vertical-align: top;
+}
+main article{
+	padding: 1em;
+}
+aside{
+	width: 21.7%;
+	display: inline-block;
+	vertical-align: top;
+	background:#96B32C;
+}
+footer h6{
+	padding: 2em 0 ;
+	text-align: center;
+}

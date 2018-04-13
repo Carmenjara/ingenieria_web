@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #f1f1f1;
+	font-family: arial;
+}
+/*con "," se heredan las propiedades de estilo de cabecera*/
+header.cabecera, footer{
+	/*para combinacion de colores aplicar la teoria de la rosa de colores; 
+	utilizar paletton para combinacion de colores*/
+	color: #000;
+	width: 90%;
+	/*margen de 0 arriba y abajo y automatico a los lados*/
+	margin: 0 auto;
+	/*margin incluye 4 valores; de 4 valores 
+	(van en sentido de las manecilas del relos), dos valores 
+	(valores arriba y abajo) y un valor (se aplica a todos los lados) en un objeto externos y
+	padding del filo hacia dentro de una etiqueta*/
+	text-align: center;
+}
+.cabecera section{
+	width: 40.32%;
+	padding: 3.6em;
+	margin-top: 0.5em;
+	display: inline-block;
+	background: #96B32C;
+}
+
+nav{
+	background: #F26E01;
+	width: 85.4%;
+	margin: 0 auto;
+	margin-top: 0.5em;
+	text-align: center;
+	padding: 2em;
+}
+section.galeria{
+	background: #96B32C;
+	color: #000;
+	width: 85.4%;
+	margin: 0 auto;
+	padding: 2em;
+	margin-top: 0.5em;
+	text-align: center;
+}
+.aside{
+	width: 90%;
+	margin: 0 auto;
+}
+.aside h3{
+	width: 8.6%;
+	padding: 3.6em;
+	margin-top: 0.5em;
+	display: inline-block;
+	background: #96B32C;
+}
+main{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 0.5em;
+	vertical-align: top;
+}
+article section{
+	width: 40.3%;
+	padding: 3.6em;
+	display: inline-block;
+	background: #96B32C;
+}
+
+.cabecera form{
+	width: 70%;
+	display: inline-block;
+	text-align: right;
+}
+
+footer h6{
+	padding: 2em 0 ;
+	text-align: center;
+	margin-top: 0.5em;
+	background: #96B32C;
+	margin-bottom: 1em;
+}
