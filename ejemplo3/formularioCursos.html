@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Escuela Josè Mejia L</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Galeria de fotos perteneciente a la Universidad Tecnica Particular de Loja">
+	<meta name="keywords" charset="galeria, fotos, UTPL, fototeca">
+	<meta name="author" content="UTPL by @lfalvarez2">
+	<meta name="viewport" content="width=device-with, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"> 
+</head>
+<body>
+	<header>
+		<nav>
+			<a class="a" href="#acerdade"><img src="images/subir.png"> <span>Acerca de</span></a>
+			<a class="b" href="#quienessomos"><img src="images/leer.png"><span>Quienes Somos</span></a>
+			<a class="c" href="#inscribete"><img src="images/escribir.png"><span>Inscríbete</span></a>
+			<a class="d" href="#contactos"><img src="images/blogger.png"><span>Contactos</span></a>
+		</nav>
+	</header>
+	<main>
+		<section class="reconocete">
+			<h1>ESCUELA "JOSÉ MEJÍA LEQUERÍCA"</h1>
+		</section>
+		<section class="quienes">
+			<!--Todas las cajas de texto deben ir en formulario para poder ser utilizadas como variables-->
+			<!--al mimento de hacer clic en Guardar cualquier operacion se envia al archivo procesar.php; de ahi se puede operar correctamente-->
+			<form class="formulario" method="post" action="internas/registro.php">
+				<div class="inputs">
+					<input type="text" name="nombres" placeholder="Nombres">
+				</div>	
+				<div class="inputs">
+					<input type="text" name="apellidos" placeholder="Apellidos">
+				</div>	
+				<div class="inputs">
+					<input type="number" name="telefono" placeholder="Telèfono">
+				</div>	
+				<div class="inputs">
+					<input type="email" name="correo" placeholder="Correo">
+				</div>	
+				<div class="inputs">
+					<input type="date" name="fecha_nacimiento" placeholder="Fecha de Nacimiento">
+				</div>	
+				<div class="inputs">
+					<input type="number" name="cedula" placeholder="Cèdula" required>
+				</div>	
+				<div class="inputs">
+					<select name="tipo">
+						<option value="1">Docente</option>
+						<option value="2">Estudiante</option>
+						<option value="3">Otro</option>
+					</select>
+				</div>	
+
+				
+				<div class="inputs">
+					<h4>CURSOS</h4>
+					<select name="cursos">
+						<!--value se lo utiliza para identificar a vcada valor-->
+						<option name="1" value="1">JAVA</option>
+						<option name="2" value="2">ANDROID</option>
+						<option name="3" value="3">RIACT</option>
+					</select>
+				</div>	
+				
+
+				<!--Value todos en uno para activar opciones-->
+				<div class="inputs">
+					<h4>TALLERES</h4>
+					<input type="checkbox" name="html" value="1">HTML
+					<input type="checkbox" name="css" value="1">CSS
+					<input type="checkbox" name="visual" value="1">VISUAL
+					<input type="checkbox" name="cocina" value="1">CONCINA
+				</div>	
+				<button>Guardar</button>
+
+				<!--Formulario terminado estilos y funcional ... deber coo factura imagen-->
+			</form>
+		</section>
+	</main>
+</html>

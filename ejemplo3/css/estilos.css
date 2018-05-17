@@ -1,0 +1,220 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	font-family: arial;
+	width: 100%;
+}
+header nav{
+	/*Permite enviar a un extremo u otro cierta etiqueta*/
+	float: left;
+	padding: 0.4em;
+	width: 6%;
+	background: rgb(2, 94, 161);
+	border-radius: 0px 0 20px 0;
+	padding-bottom: 2.3em;
+}
+nav a{
+	display: block;
+	text-decoration: none;
+	/*ultimo valor de Colores Rgba permite cambiar la transparencia*/
+	background: rgba(255,255,255,0.1);
+	transition: all 0.4s ease-in-out;
+	margin-top: 1.5em;
+	border-radius: 20px 0 20px 0;
+}
+nav a img{
+	width:60px;
+}
+h1{
+	text-align: center;
+	font-family: cursive;
+}
+header nav span{
+    /* Container properties */
+    width:0;
+    left:90px;
+    padding:0;
+    position:absolute;
+    overflow:hidden;
+
+    /* Text properties */
+    font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    letter-spacing:0.6px;
+    white-space:nowrap;
+    line-height:39px;
+
+    /* CSS3 Transition: */
+    -webkit-transition: 0.25s;
+
+    /* Future proofing (these do not work yet): */
+    -moz-transition: 0.25s;
+    transition: 0.25s;
+}
+a:hover span{
+ 	width:auto; 
+ 	padding:0 20px;
+ 	overflow:visible;
+ 	margin-top: 0.6em;
+ 	background:rgb(2, 94, 161);
+    color:#3d4f0c;
+    text-shadow:1px 1px 0 #99bf31;
+}
+
+
+.reconocete{
+	width: 100%;
+	background: url("../images/jose.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 30em; 
+}
+
+
+.acerca{
+	padding: 5em;
+	color: #f2f2f2;
+	background: url("../images/acercade.jpg");
+	height: 400px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #999; 
+}
+.quienes{
+	margin-top: 2em;
+}
+.formulario{
+    width: 40%;
+    margin: auto;
+    background-color: #FFF;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+.formulario .inputs{
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.formulario .inputs label, .formulario .inputs input{
+    width: 100%;
+    margin: 1% 0;
+}
+
+.formulario .inputs input[type="checkbox"]{
+    width: auto;
+    margin: 10px;
+}
+
+.acerca p{
+	margin-top: 30px;
+	text-align: justify;
+	width: 20%;
+}
+
+.acerca h2{
+	font-size: 3em;
+}
+
+.fotos{
+	color: #f2f2f2;
+	padding: 150px 0 150px  450px;
+	background: url("../images/num_fotos.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #999; 
+}
+
+.fotos h3{
+	text-align: center;
+	font-size: 4em;
+	border: 2px solid;
+	width: 40%;
+}
+
+.quienes{
+	background: url("../images/quienes_somos.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #999; 
+	height: 40em;
+}
+
+.quienes article{
+	width: 20%;
+	float: right;
+	margin-right: 100px;
+	margin-top: 300px;
+	color: rgb(2, 94, 161);
+}
+
+.quienes h2{
+	font-size: 2em;
+}
+
+.quienes p{
+	text-align: justify;
+	margin-top: 20px;
+}
+
+.ver_mas{
+	background-color: #f2f2f2;
+	padding-top: 70px;
+	
+}
+
+.ver_mas h3{ 
+	margin: 100px;
+	margin-left: 500px;
+	padding: 0.4em;
+	text-align: center;
+	width: 18%;
+	font-size: 1.8em;
+	background: rgb(2, 94, 161);
+	color: #f2f2f2;
+	border-radius: 20px 0 20px 0;
+}
+
+.ver_mas img{
+	width: 24.75%;
+}
+
+aside{
+	background: url("../images/pie-logos.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #999; 
+	padding-top: 30px;
+	color: #f2f2f2;
+}
+
+aside h3{
+	
+}
+
+aside p{
+	margin: 10px 10px;
+	width: 20%;
+}
+
+aside .logos{
+
+}
+
+aside .logos img{
+	margin-right: 80px;
+}
+
+.utpl{
+	margin-left: 300px;
+}

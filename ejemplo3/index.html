@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo PHP</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h1>Formularios en PHP</h1>
+<!--Todas las cajas de texto deben ir en formulario para poder ser utilizadas como variables-->
+<!--al mimento de hacer clic en Guardar cualquier operacion se envia al archivo procesar.php; de ahi se puede operar correctamente-->
+<form method="post" action="internas/procesar.php">	
+	<input type="text" name="nombres" placeholder="Nombres"><br>
+	<input type="text" name="apellidos" placeholder="Apellidos"><br>
+	<input type="number" name="telefono" placeholder="Telèfono"><br>
+	<input type="email" name="correo" placeholder="Correo"><br>
+	<input type="date" name="fecha_nacimiento" placeholder="Fecha de Nacimiento"><br>
+	<input type="number" name="cedula" placeholder="Cèdula" required><br>
+	<select name="tipo">
+		<option>Profesor</option>
+		<option>Estudiante</option>
+		<option>Otro</option>
+	</select><br>
+	<button>Guardar</button>
+</form>
+</html>
